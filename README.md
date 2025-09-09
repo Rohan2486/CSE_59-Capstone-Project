@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# 💧 Water Footprint Calculator
 
-## Project info
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-**URL**: https://lovable.dev/projects/be2fa0b3-3174-40ca-b1c8-4aa92adff69a
 
-## How can I edit this code?
+> A **React + TypeScript + TailwindCSS** application that calculates and visualizes the water footprint of daily use items.  
+> Helps users make informed choices to reduce water consumption.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/be2fa0b3-3174-40ca-b1c8-4aa92adff69a) and start prompting.
+- 📂 **Category-based Browsing** – Food, Clothing, Technology, Household  
+- ⏱ **Real-time Calculator** – Instant updates on water usage totals  
+- 💧 **Breakdown by Water Type** – Blue, Green, and Grey water footprints  
+- 📊 **Interactive Visuals** – Graphs & relatable comparisons (bathtubs, showers, bottles)  
+- 🌱 **Sustainability Tips** – Actionable advice to save water  
+- 🔍 **Search Functionality** – Quickly find and add items  
+- 📱 **Responsive UI** – Works seamlessly on desktop and mobile  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+src/
+├── components/ # UI Components
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+├── data/ # Static water footprint dataset
 
-# Step 3: Install the necessary dependencies.
-npm i
+├── utils/ # Helper functions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+├── App.tsx # Main app component
+
+├── main.tsx # Entry point
+
+└── styles.css # Global styles
+
+
+---
+
+## 🚀 Getting Started
+
+### 📊 Data Sources
+
+Water Footprint Network
+FAO CROPWAT
+Hoekstra & Mekonnen's research papers on water footprint assessment
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/water-footprint-calculator.git
+cd water-footprint-calculator
+2️⃣ Install dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Start development server
+bash
+Copy
+Edit
 npm run dev
-```
+Open http://localhost:5173 in your browser.
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/be2fa0b3-3174-40ca-b1c8-4aa92adff69a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
